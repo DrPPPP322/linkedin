@@ -1,2 +1,173 @@
-<h1>This is my homepage</h1>
-<h2>My Link-in-bio</h2>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galulu Wu - Link in Bio</title>
+    <style>
+      html {
+        min-height: 100%;
+      }
+
+      body {
+        min-height: 100%;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background: linear-gradient(180deg, #1f005c, #5b0060, #870160, #ac255e, #ca485c, #e16b5c, #f39060, #ffb56b);
+        color: white;
+        font-family: "Comic Sans MS", sans-serif;
+        text-align: center;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .main-container {
+        max-width: 640px;
+        margin: auto;
+      }
+
+      .image-row {
+        margin-bottom: 20px;
+      }
+
+      .avatar-image {
+        width: 128px;
+        height: 128px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+
+      .name-row {
+        margin-bottom: 30px;
+        font-size: 24px;
+        font-weight: bold;
+        text-decoration: underline;
+      }
+
+      .social-icons-row {
+        margin-bottom: 30px;
+      }
+
+      .social-icons-row a {
+        margin: 0 12px;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+      }
+
+      .item {
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        background-color: rgba(149, 123, 173, 0.5);
+        padding: 12px;
+        border-radius: 1000px;
+        box-shadow: 4px 4px 10px 0px rgba(122, 32, 122, 0.5);
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .thumbnail {
+        width: 48px;
+        height: 48px;
+        border-radius: 48px;
+        object-fit: cover;
+        margin-right: 12px;
+      }
+
+      .link-text {
+        text-align: center;
+        flex-grow: 1;
+      }
+
+      .link-text a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      .link-text a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="main-container">
+      <div class="image-row">
+        <img class="avatar-image" src="WechatIMG407.jpg" alt="Galulu Wu" />
+      </div>
+
+      <div class="name-row">Galulu Wu</div>
+
+      <div class="social-icons-row">
+        <a href="https://github.com/DrPPPP322" target="_blank">
+          <i class="fa-brands fa-github"></i> GitHub
+        </a>
+
+        <a href="https://www.linkedin.com/in/右仪-吴-963914197/" target="_blank">
+          <i class="fa-brands fa-linkedin"></i> LinkedIn
+        </a>
+
+        <a href="https://www.instagram.com/youyi_0709/" target="_blank">
+          <i class="fa-brands fa-instagram"></i> Instagram
+        </a>
+      </div>
+
+      <!-- Link 1 -->
+      <div class="item">
+        <img class="thumbnail" src="1.jpg" />
+        <div class="link-text">
+          <a href="friends.html" target="_blank">
+            <i class="fa-solid fa-people-group"></i> Meet My Friends
+          </a>
+        </div>
+      </div>
+
+      <!-- Link 2 -->
+      <div class="item">
+        <img class="thumbnail" src="2.jpg" />
+        <div class="link-text">
+          <a href="diet.html" target="_blank">
+            <i class="fa-solid fa-carrot"></i> Learn My Healthy Diet
+          </a>
+        </div>
+      </div>
+
+      <!-- Link 3: Puppy -->
+      <div class="item">
+        <img class="thumbnail" src="3.jpg" />
+        <div class="link-text">
+          <a href="puppy.html" target="_blank">
+            🐶 When I Was A Puppy
+          </a>
+        </div>
+      </div>
+
+      <!-- Link 4: Breeder -->
+      <div class="item">
+        <img class="thumbnail" src="4.jpg" />
+        <div class="link-text">
+          <a href="breeder.html" target="_blank">
+            🐕‍🦺 Meet My Breeder
+          </a>
+        </div>
+      </div>
+
+      <!-- Link 5: AKC -->
+      <div class="item">
+        <img class="thumbnail" src="5.jpg" />
+        <div class="link-text">
+          <a href="https://marketplace.akc.org/" target="_blank">
+            🏅 AKC Marketplace
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+</html>
